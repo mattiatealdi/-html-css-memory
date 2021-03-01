@@ -9,6 +9,10 @@ body{
   background-color: #ADD8E6;
 }
 
+.title{
+  text-shadow: 2px 2px 4px #000000;
+}
+
 header .title h1{
   font-size: 100px;
   margin-bottom: 100px;
@@ -37,6 +41,8 @@ header .title h1{
   margin: 0 2%;
   height: 100%;
   display: inline-block;
+  border-radius: 10px;
+  box-shadow: -5px -5px 10px 2px #333333;
 }
 
 .el{
@@ -124,4 +130,5 @@ header .title h1{
   font-size: 50px;
   line-height: 100px;
   text-align: center;
+  text-shadow: 10px 5px 5px #fff;
 }
