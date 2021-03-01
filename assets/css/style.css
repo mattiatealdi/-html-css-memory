@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Nerko One', cursive;
+  background-color: #ADD8E6;
+}
+
+header .title h1{
+  font-size: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  margin-top: 50px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background-color: blueviolet;
+}
+
+.container{
+  width: 60%;
+  background-color: red;
+  height: 1000px;
+  margin: auto;
+}
+
+
+
+.row{
+  height: 30%;
+  margin: 2% 2%;
+  background-color: aqua;
+  position: relative;
+}
+
+.card{
+  position:absolute;
+  background-color: black;
+  width: 20%;
+  margin: 0 2%;
+  height: 100%;
+  display: inline-block;
+  top:0;
+  left:0;
+  z-index: 2;
+}
+
+.el{
+  position:absolute;
+  background-color: burlywood;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  top:0;
+  left: 10px;
+  z-index: 0;
+}
+
+.card:hover{
+  position:absolute;
+  background-color: red;
+  width: 20%;
+  margin: 0 2%;
+  height: 100%;
+  display: inline-block;
+  top:0;
+  left:0;
+  z-index: 9999;
+}
+
+
+
+
+.from{
+  height: 100px;
+  background-color: blueviolet;
+  font-size: 50px;
+  line-height: 100px;
+  text-align: center;
+}
