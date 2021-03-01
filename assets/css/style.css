@@ -32,45 +32,94 @@ header .title h1{
   height: 30%;
   margin: 2% 2%;
   background-color: aqua;
-  position: relative;
 }
 
 .card{
-  position:absolute;
-  background-color: black;
+  position:relative;
   width: 20%;
   margin: 0 2%;
   height: 100%;
   display: inline-block;
-  top:0;
-  left:0;
-  z-index: 2;
 }
 
 .el{
   position:absolute;
-  background-color: burlywood;
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+  background-position: center;
   width: 100%;
   height: 100%;
-  z-index: 0;
-  top:0;
-  left: 10px;
-  z-index: 0;
+  z-index: 2;
+  border-radius: 10px;
 }
 
-.card:hover{
-  position:absolute;
-  background-color: red;
-  width: 20%;
-  margin: 0 2%;
+.img{
+  position: absolute;
   height: 100%;
-  display: inline-block;
-  top:0;
-  left:0;
-  z-index: 9999;
+  width: 100%;
+  z-index: 1;
+  border-radius: 10px;
+  background-color: white;
+  background-size:contain;
+  z-index: 1;
 }
 
+.first.img{
+  background-image: url(../img/noun_Bicycle_3134821.png);
+}
 
+.second.img{
+  background-image: url(../img/noun_Tractor_3134797.png);
+}
+
+.third.img{
+  background-image: url(../img/noun_Tram_3134750.png);
+}
+
+.fourth.img{
+  background-image: url(../img/noun_Submarine_3134738.png);
+}
+
+.fifth.img{
+  background-image: url(../img/noun_Cruise_Ship_3134824.png);
+}
+
+.sixth.img{
+  background-image: url(../img/noun_Tractor_3134797.png)
+}
+
+.seventh.img{
+  background-image: url(../img/noun_Tram_3134750.png);
+}
+
+.eighth.img{
+  background-image: url(../img/noun_air_balloon_3134741.png);
+}
+
+.ninth.img{
+  background-image: url(../img/noun_Submarine_3134738.png);
+}
+
+.tenth.img{
+  background-image: url(../img/noun_air_balloon_3134741.png)
+}
+
+.object{
+  position:absolute;
+  height: 20%;
+  width: 100%;
+  background-color: white;
+  z-index:1;
+  bottom:0;
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+  color: #E67919;
+}
+
+.card:hover .el{
+  z-index: 0;
+}
 
 
 .from{
